@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui;
+  gap: 1rem;
+}
+button {
+  border: none;
+  padding: 0.3rem;
+  color: black;
+}
+
+#increaseBtn {
+  background-color: lightgreen;
+}
+#resetBtn {
+  background-color: crimson;
+}
+#decreaseBtn {
+  background-color: royalblue;
+}
